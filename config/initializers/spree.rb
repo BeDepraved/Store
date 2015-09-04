@@ -3,7 +3,10 @@ Spree.config do |config|
   # Uncomment to override the default site name.
   #  config.site_name = "Gazella Running Costumes"
   #  config.logo = "store/rungazella.png"
-
+  
+  Spree::Config.set(logo: "Logo.png")
+  Spree::PrintInvoice::Config.set(:print_invoice_logo_path => "Logo.png")
+  
   #S3 configuration
   if Rails.env.production? true
     # production. Store images on S3.
