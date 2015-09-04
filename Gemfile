@@ -7,6 +7,9 @@ gem 'spree', github: 'spree/spree', tag: 'v2.3.8'
 # Spree Devise Support
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-3-stable'
 
+# Handle/Push Keys
+gem "figaro"
+
 # Gems needed for Heroku
 gem 'rails_12factor', group: :production
 ruby '2.1.5'
