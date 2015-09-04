@@ -10,7 +10,12 @@ gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-3-stable'
 # Spree Assembly
 gem 'spree_product_assembly', github: 'spree/spree-product-assembly', branch: '2-3-stable'
 
+# Spree Payment Gateway
+gem 'spree_gateway', github: 'spree/spree_gateway', branch: '2-3-stable'
+
 # Handle/Push Keys
+# Run to Push to Heroku
+    # figaro heroku:set -e production
 gem "figaro"
 
 # Gems needed for Heroku
