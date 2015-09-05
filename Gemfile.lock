@@ -1,4 +1,15 @@
 GIT
+  remote: git://github.com/200Creative/spree_bootstrap_frontend.git
+  revision: 621fcbbdae5658ec050422d3399527daa5053804
+  branch: 2-3-stable
+  specs:
+    spree_bootstrap_frontend (2.3.0)
+      bootstrap-kaminari-views (~> 0.0.3)
+      bootstrap-sass (~> 3.2.0)
+      spree_core (~> 2.3.0)
+      spree_frontend (~> 2.3.0)
+
+GIT
   remote: git://github.com/kinduff/spree_reffiliate.git
   revision: c8191238ab94ef162e3b1e9ce18a7c8479bd15d3
   branch: 2-3-stable
@@ -151,6 +162,11 @@ GEM
       nokogiri (>= 1.4.4)
       uuidtools (~> 2.1)
     bcrypt (3.1.10)
+    bootstrap-kaminari-views (0.0.5)
+      kaminari (>= 0.13)
+      rails (>= 3.1)
+    bootstrap-sass (3.2.0.2)
+      sass (~> 3.2)
     builder (3.2.2)
     cancancan (1.9.2)
     canonical-rails (0.0.11)
@@ -337,6 +353,7 @@ DEPENDENCIES
   sdoc (~> 0.4.0)
   spree!
   spree_auth_devise!
+  spree_bootstrap_frontend!
   spree_gateway!
   spree_print_invoice!
   spree_product_assembly!

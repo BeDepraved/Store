@@ -19,6 +19,10 @@ gem 'spree_reffiliate', github: 'kinduff/spree_reffiliate', branch: '2-3-stable'
 # Spree Invoice
 gem 'spree_print_invoice', github: 'spree-contrib/spree_print_invoice', branch: '2-3-stable'
 
+# Spree Bootstrap Frontend
+# https://github.com/200Creative/spree_bootstrap_frontend/tree/2-3-stable
+gem 'spree_bootstrap_frontend', github: '200Creative/spree_bootstrap_frontend', branch: '2-3-stable'
+
 # Handle/Push Keys
 # Run to Push to Heroku
     # figaro heroku:set -e production
