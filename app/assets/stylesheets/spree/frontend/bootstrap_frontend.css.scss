@@ -5,23 +5,29 @@ $icon-font-path: "../../bootstrap/";
 
 // -- Spree Custom Header and Footer ---------------------
 #spree-header {
-  background: #1c5c92 asset-url('spree_header.jpg') center center;
-  background-size: cover;
+  // background: #1c5c92 asset-url('spree_header.jpg') center center;
+  // background-size: cover;
   margin-bottom: $line-height-computed;
+  background: rgba(61, 61, 41, 1);
   #header {
-    background: rgba(9, 22, 33, 0.4);
     padding: $line-height-computed 0;
   }
   #logo {
     margin-bottom: 10px;
     img {
-      width: 306px;
+      width: 300px;
     }
   }
   .nav a {
     color: #fff;
     &:hover {
       background:rgba(9, 22, 33, 0.4);
+    }
+    &:visited {
+      background:rgba(9, 22, 33, 0.2);
+    }
+    &:active {
+      background:rgba(9, 22, 33, 0.2);
     }
   }
   .navbar {
@@ -30,7 +36,8 @@ $icon-font-path: "../../bootstrap/";
   }
 }
 #spree-footer {
-  background: $gray-dark;
+  // background: $gray-dark;
+  background: rgba(61, 61, 41, 1);
   padding-top: $padding-base-horizontal;
   margin-top: $line-height-computed;
   color: #fff;

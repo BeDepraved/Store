@@ -4,7 +4,7 @@ Spree.config do |config|
   #  config.site_name = "Gazella Running Costumes"
   #  config.logo = "store/rungazella.png"
   
-  Spree::Config.set(logo: "Logo.png")
+  Spree::Config.set(logo: "Logo-Light.png")
   Spree::PrintInvoice::Config.set(:print_invoice_logo_path => "Logo.png")
   
   #S3 configuration
